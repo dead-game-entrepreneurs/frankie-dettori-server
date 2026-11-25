@@ -1,0 +1,26 @@
+# Private settings, player state, network traces and backups.
+.env
+.env.*
+!.env.example
+data/
+backups/
+*.pcap
+*.pcapng
+*.ndjson
+*.key
+*.pem
+# Original game files and private analysis output.
+disc/
+work/
+ghidra/*.gpr
+ghidra/*.rep/
+ghidra/*.lock*
+*.iso
+*.ISO
+# Local caches, tools and builds.
+.cache/
+__pycache__/
+*.pyc
+bin/
+coverage.out
+.DS_Store
